@@ -1,5 +1,7 @@
 name: update readme mock
 
+# 毎日utc 00:00に、Qiitaなどのブログ記事投稿の最新情報を取得し、READMEファイルを更新するワークフロー
+
 on:
   schedule:
     - cron: '0 0 * * *' # 毎日utc 00:00に実行
