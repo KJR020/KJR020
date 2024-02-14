@@ -22,8 +22,8 @@ jobs:
           
       - name: Commit and push changes (if any)
         run: |
-          git config --global user.name 'Your GitHub Username'
-          git config --global user.email 'Your GitHub Email'
+          git config --global user.name 'KJR020'
+          git config --global user.email 'johnjiro1114@gmail.com'
           git commit -am "Mock update README" || echo "No changes to commit"
           git push
 
