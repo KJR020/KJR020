@@ -1,8 +1,13 @@
-name: Update README Mock
+name: update readme mock
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 毎日UTC 00:00に実行
+    - cron: '0 0 * * *' # 毎日utc 00:00に実行
+    
+  push:
+      branches:
+        - main # mainブランチにpushされた時に実行
+
 
 jobs:
   mock-update:
@@ -10,20 +15,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: Set up Python
+      - name: set up python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
           
-      - name: Run mock update script
+      - name: run mock update script
         run: |
-          echo "Running mock update script..."
+          echo "running mock update script..."
           python scripts/mock_update_article.py
           
-      - name: Commit and push changes (if any)
+      - name: commit and push changes (if any)
         run: |
-          git config --global user.name 'KJR020'
+          git config --global user.name 'kjr020'
           git config --global user.email 'johnjiro1114@gmail.com'
-          git commit -am "Mock update README" || echo "No changes to commit"
+          git commit -am "mock update readme" || echo "no changes to commit"
           git push
 
