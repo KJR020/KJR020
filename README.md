@@ -1,14 +1,14 @@
 # KJR020
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KJR020&theme=onedark
-)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KJR020&theme=onedark)](https://github.com/anuraghazra/github-readme-stats)
 
-- **Qiita**  
- <a href="https://qiita.com/Jirox">
-    <img alt="Qiita" src="https://img.shields.io/badge/-Qiita-55C500?style=flat-square&logo=qiita&logoColor=white" />
-  </a>
+### Connect with me:
 
-- **note**  
-  <a href="https://note.com/jirox">
-    <img alt="note" src="https://img.shields.io/badge/-note-41C9B4?style=flat-square&logo=note&logoColor=white" />
-  </a>
+[<img align="left" alt="Qiita" width="22px" src="https://qiita.com/favicon.png" />][qiita]
+[<img align="left" alt="note" width="22px" src="https://note.com/favicon.ico" />][note]
+
+<br />
+<br />
+
+[qiita]: https://qiita.com/Jirox
+[note]: https://note.com/jirox
