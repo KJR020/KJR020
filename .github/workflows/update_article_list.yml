@@ -29,8 +29,8 @@ jobs:
           
       - name: commit and push changes (if any)
         run: |
-          git config --global user.name 'KJR020'
-          git config --global user.email 'johnjiro1114@gmail.com'
-          git commit -am "mock update readme" || echo "no changes to commit"
+          git status
+          git diff-index --quiet HEAD || git commit -am "mock update readme" 
+          git commit -am "mock update README" || echo "no changes to commit"
           git push
 
