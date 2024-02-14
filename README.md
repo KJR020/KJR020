@@ -1,10 +1,10 @@
 <h1 align="center">Hi there, I'm KJR020 👋</h1>
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://github.com/KJR020">
     <img src="https://github-readme-stats.vercel.app/api?username=KJR020&show_icons=true&theme=onedark" alt="KJR020's GitHub Stats">
   </a>
-</p>
+</p> -->
 
 <p align="center">
   <a href="https://github.com/KJR020">
