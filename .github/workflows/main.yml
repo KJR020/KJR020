@@ -1,1 +1,29 @@
+name: Update README Mock
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 毎日UTC 00:00に実行
+
+jobs:
+  mock-update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          
+      - name: Run mock update script
+        run: |
+          echo "Running mock update script..."
+          python scripts/mock_update_article.py
+          
+      - name: Commit and push changes (if any)
+        run: |
+          git config --global user.name 'Your GitHub Username'
+          git config --global user.email 'Your GitHub Email'
+          git commit -am "Mock update README" || echo "No changes to commit"
+          git push
 
