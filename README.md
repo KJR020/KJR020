@@ -34,8 +34,8 @@
   </a>
 </p>
 
-## Technologies & Tools
+<!-- ## Technologies & Tools
 
 
-## Recent Blog Posts
+## Recent Blog Posts -->
 
