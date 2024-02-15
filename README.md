@@ -63,6 +63,7 @@ print(my_profile.introduce())
   </a>
 </p>
 
+
 ## Technologies & Tools
 1. **Programming Languages and Frameworks**
    - **Python**: Utilized for a broad range of applications including data analysis (with pandas), machine learning (using scikit-learn, tslearn), API development (with FastAPI), web application development (using Streamlit), and graphical user interface creation (with PyQt).
@@ -78,7 +79,7 @@ print(my_profile.introduce())
 4. **Data Visualization and Business Intelligence**
    - **Power BI**: A Microsoft product used for business analytics, enabling data modeling, analysis, and report generation.
 
-5. **Database Management**
+5. **Database**
    - **SQL**: Employed for querying and managing databases, used extensively for data extraction, manipulation, and reporting tasks.
 
 
