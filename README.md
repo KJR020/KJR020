@@ -63,8 +63,26 @@ print(my_profile.introduce())
   </a>
 </p>
 
-<!-- ## Technologies & Tools
+## Technologies & Tools
+1. **Programming Languages and Frameworks**
+   - **Python**: Utilized for a broad range of applications including data analysis (with pandas), machine learning (using scikit-learn, tslearn), API development (with FastAPI), web application development (using Streamlit), and graphical user interface creation (with PyQt).
+   - **JavaScript/Node.js**: Applied in web development and IoT projects, specifically using Node-RED for IoT integration, Vue.js for front-end development, and Plotly.js for interactive data visualizations.
+   - **C#**: Used within the .NET ecosystem (particularly .NET 6) for developing desktop applications, services, and interfacing with IoT devices.
+
+2. **Networking and Analysis Tools**
+   - **Wireshark**: A network protocol analyzer used for troubleshooting, analysis, and education in networking.
+
+3. **Industrial Automation**
+   - **CODESYS**: A development environment for programming controller applications according to the international industrial standard IEC 61131-3, used in automation and control system projects.
+
+4. **Data Visualization and Business Intelligence**
+   - **Power BI**: A Microsoft product used for business analytics, enabling data modeling, analysis, and report generation.
+
+5. **Database Management**
+   - **SQL**: Employed for querying and managing databases, used extensively for data extraction, manipulation, and reporting tasks.
 
 
-## Recent Blog Posts -->
+
+<!-- ## Recent Blog Posts -->
+
 
