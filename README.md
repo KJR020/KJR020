@@ -1,4 +1,4 @@
-<h1 align="center">Hi there, I'm KJR020 👋</h1>
+<h1>Hi there, I'm KJR020 👋</h1>
 
 <!-- <p align="center">
   <a href="https://github.com/KJR020">
@@ -6,7 +6,7 @@
   </a>
 </p> -->
 
-<p align="center">
+<p align="left">
   <a href="https://github.com/KJR020">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KJR020&theme=onedark" alt="Top Langs">
   </a>
