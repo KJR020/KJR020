@@ -12,7 +12,7 @@
   </a>
 </p>
 
-## about me
+## About Me
 ```
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
@@ -66,7 +66,7 @@ print(my_profile.introduce())
 
 ## Technologies & Tools
 1. **Programming Languages and Frameworks**
-   - **Python**: Utilized for a broad range of applications including data analysis (with pandas), machine learning (using scikit-learn, tslearn), API development (with FastAPI), web application development (using Streamlit), and graphical user interface creation (with PyQt).
+   - **Python**: Utilized for a broad range of applications including data analysis (with pandas), machine learning (using scikit-learn, tslearn, PyTorch), API development (with FastAPI), web application development (using Streamlit), and graphical user interface creation (with PyQt).
    - **JavaScript/Node.js**: Applied in web development and IoT projects, specifically using Node-RED for IoT integration, Vue.js for front-end development, and Plotly.js for interactive data visualizations.
    - **C#**: Used within the .NET ecosystem (particularly .NET 6) for developing desktop applications, services, and interfacing with IoT devices.
 
