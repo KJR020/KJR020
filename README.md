@@ -13,44 +13,13 @@
 </p>
 
 ## About Me
-```
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
 
-class DeveloperProfile:
-    def __init__(self, name: str, contact: str, pronouns: list):
-        self.name = name
-        self.contact = contact
-        self.pronouns = " / ".join(pronouns)  
-        self.details = {}
-
-    def add_detail(self, key: str, value):
-        if isinstance(value, list):
-            value = ", ".join(value)
-        self.details[key] = value
-
-    def introduce(self):
-        intro = f"Hello, I'm {self.name} ({self.pronouns}).\nYou can reach me at: {self.contact}.\n\nAbout Me:\n"
-        details = "\n".join([f"{key}: {value}" for key, value in self.details.items()])
-        return intro + details
-
-my_profile = DeveloperProfile(
-    name="KJR020",
-    contact="johnjiro1114@gmail.com",
-    pronouns=["He", "Him"]
-)
-
-my_profile.add_detail("Working On", "Developing IT-based production technologies, focusing on IoT and machine learning in manufacturing.")
-my_profile.add_detail("Learning", "Advanced software development, machine learning, data engineering, GitHub for team development, and Test-Driven Development (TDD).")
-my_profile.add_detail("Collaboration Interests", "Interested in software development and web service projects. Keen on contributing to projects that embrace modern development practices.")
-my_profile.add_detail("Seeking Help With", "Learning from experienced IT engineers and software engineers about best practices in software engineering, including team collaboration using GitHub and TDD.")
-my_profile.add_detail("Expertise", "Python, machine learning, IIoT system development, smart manufacturing processes.")
-my_profile.add_detail("Fun Fact", "Exploring the intersection of technology and engineering, from Raspberry Pi experiments to developing manufacturing dashboards.")
-
-print(my_profile.introduce())
-
-```
-
+- **Working On**: I am currently developing IT-based production technologies with a focus on the integration of IoT and machine learning into manufacturing processes.
+- **Learning**: My learning path includes advanced software development, machine learning, data engineering, utilizing GitHub for collaborative team development, and practicing Test-Driven Development (TDD).
+- **Collaboration Interests**: I am interested in participating in software development and web service projects. I am eager to contribute to initiatives that incorporate modern development practices.
+- **Seeking Help With**: I am seeking guidance from experienced IT and software engineers to learn best practices in software engineering. This includes effective team collaboration using GitHub and implementing TDD strategies.
+- **Expertise**: My expertise areas are Python programming, machine learning, Industrial IoT (IIoT) system development, and enhancing smart manufacturing processes.
+- **Fun Fact**: I enjoy exploring the synergy between technology and engineering, which ranges from conducting Raspberry Pi experiments to creating manufacturing dashboards.
 
 ## Connect with Me
 
